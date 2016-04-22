@@ -1,0 +1,63 @@
+﻿Build started 22/04/2016 08:52:38.
+     1>Project "C:\Users\JordanPC\Desktop\Implementing a Screen Manager\Implementing a Screen Manager.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ISDL\image_include /ISDL\include /ISDL\mixer_include /ISDL\ttf_include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Character.cpp CharacterBubble.cpp CharacterDragon.cpp CharacterZenChan.cpp Collisions.cpp GameScreen.cpp GameScreenGameOver.cpp GameScreenHighScores.cpp GameScreenIntro.cpp GameScreenLevel1.cpp GameScreenLevel2.cpp GameScreenManager.cpp GameScreenMenu.cpp LevelMap.cpp Player1.cpp Player2.cpp SoundEffect.cpp Source.cpp Texture2D.cpp
+         Texture2D.cpp
+     1>c:\users\jordanpc\desktop\implementing a screen manager\texture2d.cpp(33): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+         Source.cpp
+         SoundEffect.cpp
+         Player2.cpp
+         Player1.cpp
+         LevelMap.cpp
+         GameScreenMenu.cpp
+         GameScreenManager.cpp
+         GameScreenLevel2.cpp
+         GameScreenLevel1.cpp
+         GameScreenIntro.cpp
+         GameScreenHighScores.cpp
+         GameScreenGameOver.cpp
+         GameScreen.cpp
+         Collisions.cpp
+         CharacterZenChan.cpp
+         CharacterDragon.cpp
+         CharacterBubble.cpp
+         Character.cpp
+         Generating Code...
+     1>c:\users\jordanpc\desktop\implementing a screen manager\gamescreengameover.cpp(35): warning C4715: 'GameScreenGameOver::SetUpLevel' : not all control paths return a value
+     1>c:\users\jordanpc\desktop\implementing a screen manager\gamescreenhighscores.cpp(35): warning C4715: 'GameScreenHighScores::SetUpLevel' : not all control paths return a value
+     1>c:\users\jordanpc\desktop\implementing a screen manager\gamescreenintro.cpp(35): warning C4715: 'GameScreenIntro::SetUpLevel' : not all control paths return a value
+     1>c:\users\jordanpc\desktop\implementing a screen manager\gamescreenlevel1.cpp(142): warning C4715: 'GameScreenLevel1::SetUpLevel' : not all control paths return a value
+     1>c:\users\jordanpc\desktop\implementing a screen manager\gamescreenlevel2.cpp(139): warning C4715: 'GameScreenLevel2::SetUpLevel' : not all control paths return a value
+     1>c:\users\jordanpc\desktop\implementing a screen manager\gamescreenmenu.cpp(43): warning C4715: 'GameScreenMenu::SetUpLevel' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\JordanPC\Desktop\Implementing a Screen Manager\Debug\Implementing a Screen Manager.exe" /INCREMENTAL /NOLOGO /LIBPATH:SDL kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\JordanPC\Desktop\Implementing a Screen Manager\Debug\Implementing a Screen Manager.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\JordanPC\Desktop\Implementing a Screen Manager\Debug\Implementing a Screen Manager.lib" /MACHINE:X86 Debug\Character.obj
+         Debug\CharacterBubble.obj
+         Debug\CharacterDragon.obj
+         Debug\CharacterZenChan.obj
+         Debug\Collisions.obj
+         Debug\GameScreen.obj
+         Debug\GameScreenGameOver.obj
+         Debug\GameScreenHighScores.obj
+         Debug\GameScreenIntro.obj
+         Debug\GameScreenLevel1.obj
+         Debug\GameScreenLevel2.obj
+         Debug\GameScreenManager.obj
+         Debug\GameScreenMenu.obj
+         Debug\LevelMap.obj
+         Debug\Player1.obj
+         Debug\Player2.obj
+         Debug\SoundEffect.obj
+         Debug\Source.obj
+         Debug\Texture2D.obj
+         SDL\SDL2.lib
+         SDL\SDL2main.lib
+         SDL\SDL2_image.lib
+         SDL\SDL2_mixer.lib
+         SDL\SDL2_ttf.lib
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Implementing a Screen Manager.vcxproj -> C:\Users\JordanPC\Desktop\Implementing a Screen Manager\Debug\Implementing a Screen Manager.exe
+     1>Done Building Project "C:\Users\JordanPC\Desktop\Implementing a Screen Manager\Implementing a Screen Manager.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.19
